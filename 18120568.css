@@ -1,0 +1,301 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dee4ec21;
+}
+
+/*Div 1==================================================*/
+.box_logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.box_logo .logo {
+    display: flex;
+    align-items: center;
+}
+
+.box_logo .logo .img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    position: relative;
+}
+.box_logo .logo .img::after {
+    content: "";
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 50px;
+    height: 10px;
+    border-radius: 200%;
+    background: radial-gradient(#00000023, #ffffff00)
+}
+.box_logo .logo p {
+    font-size: 25px;
+    font-weight: 200;
+    color: #707070;
+}
+.box_logo .logo p span {
+    font-size: 25px;
+    font-weight: 650;
+    color: #707070;
+}
+
+.box_logo .contact {
+    font-size: 22px;
+    font-weight: 650;
+    color: #707070;
+}
+.box_logo .contact span {
+    font-size: 22px;
+    font-weight: 200;
+    color: #808080;
+}
+
+/*Div 2==============================================*/
+.box_main_image h1 {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.box_main_image .img {
+    text-align: center;
+}
+
+/*Div 3===================================================*/
+.box_btn1 {
+    display: flex;
+    padding: 30px 30px;
+    padding-left: 500px;
+}
+.box_btn1 .btn {
+    background: radial-gradient(#74aff3, #677cf3);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 340px;
+    height: 53px;
+}
+
+.box_btn1 .btn .btn1 {
+    text-align: center;
+    font-weight: 650;
+    color: #030a25d8;
+    font-size: 20px;
+}
+.box_btn1 .btn .btn2 {
+    text-align: center;
+    font-weight: 200;
+    color: #030a25a6;
+    font-size: 12px;
+}
+.box_btn1 .txt {
+    color: #0f2185c5;
+    font-style: italic;
+    font-size: 19px;
+    padding-left: 2%;
+    padding-top: 1.5%;
+}
+.box_btn1 .img {
+    padding-top: 2%;
+}
+
+/*div 4=====================================*/
+.box_content .line1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+.box_content .line1 .element1{
+    display: flex;
+}
+.box_content .line1 .element1 .content .word{
+    margin-top: -15px;
+}
+.box_content .line1 .element1 .img{
+    width: 80px;
+    height: 80px;
+    margin-top: 4%;
+    margin-right: 15px;
+}
+.box_content .line1 .element2{
+    display: flex;
+}
+.box_content .line1 .element2 .content .word{
+    margin-top: -15px;
+}
+.box_content .line1 .element2 .img{
+    width: 80px;
+    height: 80px;
+    margin-top: 4%;
+    margin-right: 15px;
+}
+.box_content .line1 .element3{
+    display: flex;
+}
+.box_content .line1 .element3 .content .word{
+    margin-top: -15px;
+}
+.box_content .line1 .element3 .img{
+    width: 80px;
+    height: 80px;
+    margin-top: 4%;
+    margin-right: 15px;
+}
+
+.box_content .line2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box_content .line2 .element1{
+    display: flex;
+}
+.box_content .line2 .element1 .content .word{
+    margin-top: -15px;
+}
+.box_content .line2 .element1 .img{
+    width: 80px;
+    height: 80px;
+    margin-top: 6%;
+    margin-right: 15px;
+}
+.box_content .line2 .element2 .content .word{
+    margin-top: -15px;
+}
+.box_content .line2 .element2{
+    display: flex;
+}
+.box_content .line2 .element2 .img{
+    width: 80px;
+    height: 80px;
+    margin-top: 4%;
+    margin-right: 15px;
+}
+.box_content .line2 .element3{
+    display: flex;
+}
+.box_content .line2 .element3 .content .word{
+    margin-top: -15px;
+}
+.box_content .line2 .element3 .img{
+    width: 80px;
+    height: 80px;
+    margin-top: 4%;
+    margin-right: 15px;
+}
+
+/*div 5=====================================*/
+.box_message .boxmess {
+    position: relative;
+    text-align: center;
+    padding: 20px 30px;
+}
+.box_message .title {
+    color: #0f2185c5;
+    font-style: italic;
+    font-size: 19px;
+    padding-left: 2.5%;
+    padding-top: 3%;
+    padding-bottom: 0.1%;
+}
+
+.box_message .boxmess .shape{
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 98% 75%, 96% 87%, 96% 75%, 0% 75%);
+    background-color: #b7b9d341;
+    height: 200px;
+    padding-top: 50px;
+    font-style: italic;
+    color: #7579b8;
+    border-radius: 15px;
+
+}
+.box_message .speaker {
+    color: #7579b8;
+    padding-left: 1110px;
+    margin-top: -64px;
+}
+
+/*div 6=====================================*/
+.box_btn2 {
+    display: flex;
+    padding: 20px 30px;
+    padding-left: 246px;
+    margin-bottom: 3%;
+}
+
+.box_btn2 .img {
+    margin-top: -25px;
+    margin-right: 12px;
+}
+
+.box_btn2 .btn {
+    background: radial-gradient(#74aff3, #677cf3);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 340px;
+    height: 53px;
+    margin-top: 1%;
+}
+
+.box_btn2 .btn .btn1 {
+    text-align: center;
+    font-weight: 650;
+    color: #030a25d8;
+    font-size: 20px;
+}
+.box_btn2 .btn .btn2 {
+    text-align: center;
+    font-weight: 200;
+    color: #030a25a6;
+    font-size: 12px;
+}
+.box_btn2 .txt {
+    color: #0f2185c5;
+    font-style: italic;
+    font-size: 19px;
+    padding-left: 2%;
+    padding-top: 2.5%;
+    padding-right: 2%;
+}
+
+/*div 7=====================================*/
+.box_info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    background-color: #01181625;
+    padding-bottom: 3%;
+}
+.box_info .contact .txt {
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+.box_info .design_detail .txt {
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+.box_info .stay_connected .txt {
+    font-weight: bold;
+    margin-bottom: 9%;
+    margin-top: 3%;
+}
+.box_info .map {
+    margin-top: 2%;
+}
+/*div 8=====================================*/
+.box_end {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #01181670;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
